@@ -7,10 +7,7 @@ use GuzzleHttp\Client;
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> d67b024 (Resolved merge conflicts)
 class WeatherService
 {
     protected $client;
@@ -22,10 +19,7 @@ class WeatherService
         $this->apiKey = env('WEATHER_API_KEY');
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> d67b024 (Resolved merge conflicts)
     public function getWeather($city)
     {
         $response = $this->client->get("http://api.openweathermap.org/data/2.5/weather", [
