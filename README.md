@@ -1,5 +1,5 @@
 
-The whole app just in four files, welcome view and WeatherController and WeatherService in Services folder and of course the web routs....
+The whole app just in five files, welcome view and WeatherController and WeatherService in Services folder and of course the web routs and api route....
 
 ## About Laravel
 
